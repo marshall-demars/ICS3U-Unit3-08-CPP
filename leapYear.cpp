@@ -24,9 +24,11 @@ int main() {
         if (year_as_integer % 4 == 0) {
             if (year_as_integer % 100 == 0) {
                 if (year_as_integer % 400 == 0) {
-                    std::cout << year_as_string << " is a leap year" << std::endl;
+                    std::cout << year_as_string << " is a leap year"
+                    << std::endl;
                 }
-                std::cout << year_as_string << " is not a leap year" << std::endl;
+                std::cout << year_as_string << " is not a leap year"
+                << std::endl;
             }
             std::cout << year_as_string << " is a leap year" << std::endl;
         } else {
